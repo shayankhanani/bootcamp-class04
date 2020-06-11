@@ -1,0 +1,31 @@
+.Room{
+    height: 100vh;
+}
+
+.Room h1{
+    margin: 0px;
+    padding: 2em;
+}
+
+.Room p {
+    font-size: 2em;
+    padding: 1rem;
+}
+
+.dark{
+    background-color: #333;
+    color: rgb(175, 175, 175);
+}
+
+.dark-border {
+    border: 1px solid  rgb(175, 175, 175);;
+}
+
+.lit {
+    background-color: #fff;
+    color: #000;
+}
+
+.lit-border{
+    border: 1px solid #000;
+}
