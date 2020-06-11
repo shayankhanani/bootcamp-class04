@@ -42,4 +42,4 @@ jobs:
       uses: npm i -g surge
     
     - name: Surge Deploy
-      uses: surge ./build bootcampc4-react-state-shayan.surge.sh --token ${{secrets.surge_token}}
+      uses: surge ./build bootcampc4-react-state-shayan.surge.sh --token ${{ secrets.surge_token }}
